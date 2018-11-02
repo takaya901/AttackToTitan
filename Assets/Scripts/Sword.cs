@@ -16,7 +16,6 @@ public class Sword : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Instantiate(_blood, other.ClosestPointOnBounds(transform.position), Quaternion.identity);   //血のエフェクトを再生
-        //Instantiate(_slash, other.ClosestPointOnBounds(transform.position), Quaternion.identity);   //斬撃のエフェクトを再生
 
         if (!_slashSound.isPlaying) {
             _slashSound.Play(); //斬撃の効果音を再生

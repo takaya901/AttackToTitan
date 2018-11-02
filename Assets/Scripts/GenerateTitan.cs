@@ -15,14 +15,14 @@ public class GenerateTitan : MonoBehaviour
         
     void Start ()
     {
-        float maxGenArea = 100f;    //生成位置のx,z座標の最大値
-        float maxNotGenArea = 30f; //壁の中心からこの距離内には生成しない
+        const float maxGenArea = 100f;    //生成位置のx,z座標の最大値
+        const float maxNotGenArea = 30f; //壁の中心からこの距離内には生成しない
 
         //指定された数だけ巨人を生成する
         for (int i = 0; i < _titansNum; i++) {
             Vector3 genPos; //巨人の生成位置
 
-            //Terrainのサイズに合わせてランダムな生成位置を作成
+            //生成位置のx,z座標をランダムに決定
             do {
                 genPos = new Vector3(Random.Range(-maxGenArea, maxGenArea), 0, Random.Range(-maxGenArea, maxGenArea));
             } while (Math.Abs(genPos.x) < maxNotGenArea && Math.Abs(genPos.z) < maxNotGenArea);   //壁内と壁のすぐ近くには生成しない
