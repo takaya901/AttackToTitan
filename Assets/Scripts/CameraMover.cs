@@ -42,7 +42,7 @@ public class CameraMover : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.layer != LayerMask.NameToLayer("Field")) { return; }   //地面以外に当たったら無視
+        if (collision.gameObject.layer != LayerName.Field) { return; }   //地面以外に当たったら無視
 
         if (!_landingSound.isPlaying) {
             _landingSound.Play();

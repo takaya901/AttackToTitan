@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Titan : MonoBehaviour
 {
@@ -33,14 +31,14 @@ public class Titan : MonoBehaviour
     //剣で切られたとき
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag != "Sword") {  //剣以外（他の巨人など）に当たったら無視
+        if (!other.gameObject.CompareTag(TagName.Sword)) {  //剣以外（他の巨人など）に当たったら無視
             return;
         }
 
         PlayFallDownAnimation();    //倒れるアニメーション再生
 
         GetComponent<Rigidbody>().isKinematic = true;
-        gameObject.layer = LayerMask.NameToLayer("fellTitan");
+        gameObject.layer = LayerName.fellTitan;
         _bgmController.DecreaseTitanNum();
         
         if (!_audioSource.isPlaying) {
@@ -51,7 +49,7 @@ public class Titan : MonoBehaviour
     //壁にたどり着いたら攻撃開始
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.layer != LayerMask.NameToLayer("Wall")) {  //壁以外との衝突は無視
+        if (collision.gameObject.layer != LayerName.Wall) {  //壁以外との衝突は無視
             return;
         }
 

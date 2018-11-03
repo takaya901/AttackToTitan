@@ -1,18 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GaugeController : MonoBehaviour
 {
-    [SerializeField] private BGMController _bgmController;
+    [SerializeField] BGMController _bgmController;
+    [SerializeField] RectTransform _rt;
 
-    private float t;
-    private float maxValue;
-    private RectTransform rt;
+    float t;
+    float maxValue;
+    RectTransform rt;
 
     private void Start()
     {
-        rt = GameObject.Find("Gauge").GetComponent<RectTransform>();
         maxValue = rt.sizeDelta.x;
         t = 1f;
     }

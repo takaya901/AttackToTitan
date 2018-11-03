@@ -1,12 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Sword : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem _blood;　//血しぶき
-    [SerializeField] private ParticleSystem _slash;　//剣の残像
-    private AudioSource _slashSound;
+    [SerializeField] ParticleSystem _blood;　//血しぶき
+    [SerializeField] ParticleSystem _slash;　//剣の残像
+    AudioSource _slashSound;
 
     void Start()
     {

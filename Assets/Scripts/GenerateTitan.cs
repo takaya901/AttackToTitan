@@ -32,13 +32,13 @@ public class GenerateTitan : MonoBehaviour
             RaycastHit terrainHit;  //terrainとの衝突情報
 
             //地面との接触位置を取得
-            if (!Physics.Raycast(downwardRay, out terrainHit, _terrain.terrainData.size.y, LayerMask.GetMask("Field"))) {
+            if (!Physics.Raycast(downwardRay, out terrainHit, _terrain.terrainData.size.y, LayerName.FieldMask)) {
                 return;
             }
             genPos = terrainHit.point;  //接触位置を保存
 
             //指定半径内に他のTitanがいなければ，地面の接触ポイントにランダムな大きさで敵を配置
-            if (!Physics.SphereCast(downwardRay, _minDistance, rayOriginY, LayerMask.GetMask("Titan"))) {
+            if (!Physics.SphereCast(downwardRay, _minDistance, rayOriginY, LayerName.TitanMask)) {
                 var titanScale = Random.Range(_minHeight, _maxHeight);
                 Instantiate(_titan, genPos, Quaternion.identity).transform.localScale = new Vector3(titanScale, titanScale, titanScale);
             }
