@@ -720,7 +720,7 @@ PlayerSettings:
   cloudServicesEnabled:
     UNet: 1
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 3
   cloudProjectId: f5b20553-b1ab-4730-bb2e-c9ca5962c0b5
   projectName: AttackOnTitan (2)
   organizationId: takaya1209

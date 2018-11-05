@@ -2,8 +2,8 @@
 
 public class BGMController : MonoBehaviour
 {
-    private int RemainTitanNum = 20;
-    private AudioSource[] _clips;
+    int RemainTitanNum = 20;
+    AudioSource[] _clips;
 
     public void DecreaseTitanNum()
     {
@@ -12,12 +12,12 @@ public class BGMController : MonoBehaviour
         }
     }
 
-    private void Start()
+    void Start()
     {
         _clips = GetComponents<AudioSource>();
     }
 
-    private void Update()
+    void Update()
     {
         //if (RemainTitanNum <= 0 && !_clips[0].isPlaying) {
         //    foreach (var clip in _clips) {

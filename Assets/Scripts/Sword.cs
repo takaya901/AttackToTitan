@@ -4,12 +4,7 @@ public class Sword : MonoBehaviour
 {
     [SerializeField] ParticleSystem _blood;　//血しぶき
     [SerializeField] ParticleSystem _slash;　//剣の残像
-    AudioSource _slashSound;
-
-    void Start()
-    {
-        _slashSound = GetComponent<AudioSource>();
-    }
+    [SerializeField] AudioSource _slashSound;
 
     void OnTriggerEnter(Collider other)
     {
