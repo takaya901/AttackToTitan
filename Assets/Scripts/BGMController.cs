@@ -29,11 +29,11 @@ public class BGMController : MonoBehaviour
 
     public void PlayGameOverBGM()
     {
-        if (!_clips[1].isPlaying) {
-            foreach (var clip in _clips) {
-                clip.Stop();
-            }
-            _clips[1].Play();
+        if (_clips[1].isPlaying) return;
+        
+        foreach (var clip in _clips) {
+            clip.Stop();
         }
+        _clips[1].Play();
     }
 }

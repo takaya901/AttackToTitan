@@ -54,14 +54,14 @@ public class Titan : MonoBehaviour
         
         _animator.SetBool("isKilled", true); // 再生
 
-        if (!_onPlaying) {
-            if (!_animator.GetBool("isKilled")) {
-                _animator.SetBool("isKilled", true); // 再生
-            }
-            else if (animInfo.normalizedTime >= 1.0f) {
-                _animator.SetBool("isKilled", false);    //再生が終了し、待機状態に戻す
-                _onPlaying = true;
-            }
+        if (_onPlaying) return;
+        
+        if (!_animator.GetBool("isKilled")) {
+            _animator.SetBool("isKilled", true); // 再生
+        }
+        else if (animInfo.normalizedTime >= 1.0f) {
+            _animator.SetBool("isKilled", false); //再生が終了し、待機状態に戻す
+            _onPlaying = true;
         }
     }
 }

@@ -6,16 +6,16 @@ using Random = UnityEngine.Random;
 // https://gametukurikata.com/customize/editor/setgameobject
 public class GenerateTitan : MonoBehaviour
 {
-    [SerializeField] GameObject _titan; //巨人
-    [SerializeField] Terrain _terrain;  //フィールド
+    [SerializeField] GameObject _titan;      //巨人
+    [SerializeField] Terrain _terrain;       //フィールド
     [SerializeField] int _titansNum = 20;    //巨人の数
-    [SerializeField] float _maxHeight = 5; //巨人の大きさの上限
-    [SerializeField] float _minHeight = 1; //巨人の大きさの下限
-    [SerializeField] float _minDistance = 2;    //巨人同士の最小間隔
+    [SerializeField] float _maxHeight = 5;   //巨人の大きさの上限
+    [SerializeField] float _minHeight = 1;   //巨人の大きさの下限
+    [SerializeField] float _minDistance = 2; //巨人同士の最小間隔
         
     void Start ()
     {
-        const float maxGenArea = 100f;    //生成位置のx,z座標の最大値
+        const float maxGenArea = 100f;   //生成位置のx,z座標の最大値
         const float maxNotGenArea = 30f; //壁の中心からこの距離内には生成しない
 
         //指定された数だけ巨人を生成する
@@ -28,7 +28,7 @@ public class GenerateTitan : MonoBehaviour
             } while (Math.Abs(genPos.x) < maxNotGenArea && Math.Abs(genPos.z) < maxNotGenArea);   //壁内と壁のすぐ近くには生成しない
 
             var rayOriginY = _terrain.GetPosition().y + _terrain.terrainData.size.y; //rayの開始地点のy座標．terrainの最も高い位置に設定
-            Ray downwardRay = new Ray(new Vector3(genPos.x, rayOriginY, genPos.z), Vector3.down);    //terrainとの衝突判定のための下向きray
+            var downwardRay = new Ray(new Vector3(genPos.x, rayOriginY, genPos.z), Vector3.down);    //terrainとの衝突判定のための下向きray
             RaycastHit terrainHit;  //terrainとの衝突情報
 
             //地面との接触位置を取得

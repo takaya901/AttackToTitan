@@ -9,7 +9,7 @@ public class GaugeController : MonoBehaviour
     float maxValue;
     RectTransform rt;
 
-    private void Start()
+    void Start()
     {
         maxValue = rt.sizeDelta.x;
         t = 1f;
@@ -18,7 +18,7 @@ public class GaugeController : MonoBehaviour
     public void DecreaseValue()
     {
         t -= 0.01f;
-        float x = Mathf.Lerp(0f, maxValue, t);
+        var x = Mathf.Lerp(0f, maxValue, t);
         rt.sizeDelta = new Vector2(x, rt.sizeDelta.y);
         if (t <= 0f) {
             _bgmController.PlayGameOverBGM();

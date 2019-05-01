@@ -1369,10 +1369,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.14829993
-  m_Height: 0.29659986
-  m_Direction: 1
-  m_Center: {x: -0.014694214, y: 0.059533834, z: 0.025566816}
+  m_Radius: 0.6716697
+  m_Height: 1.4170327
+  m_Direction: 0
+  m_Center: {x: -0.014694214, y: 0.54140973, z: 0.2401669}
 --- !u!82 &412262150
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4440,7 +4440,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c3f106f88ca4c6a4b8fdd74a32f31bff, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c7baafb2f3c044df1a993f6655d5eb37, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.248
   m_Pitch: 1
@@ -5221,10 +5221,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.10833155
-  m_Height: 0.24190515
-  m_Direction: 1
-  m_Center: {x: -0.0077319928, y: -0.0037017316, z: -0.00063969195}
+  m_Radius: 0.20357306
+  m_Height: 0.48041508
+  m_Direction: 0
+  m_Center: {x: -0.034090146, y: -0.107074544, z: -0.0006396572}
 --- !u!114 &1011730678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5648,37 +5648,13 @@ MonoBehaviour:
   enableAdaptiveResolution: 0
   minRenderScale: 0.7
   maxRenderScale: 1
-  expandMixedRealityCapturePropertySheet: 0
-  enableMixedReality: 0
-  compositionMethod: 0
-  extraHiddenLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  capturingCameraDevice: 0
-  flipCameraFrameHorizontally: 0
-  flipCameraFrameVertically: 0
-  handPoseStateLatency: 0
-  sandwichCompositionRenderLatency: 0
-  sandwichCompositionBufferedFrames: 8
-  chromaKeyColor: {r: 0, g: 1, b: 0, a: 1}
-  chromaKeySimilarity: 0.6
-  chromaKeySmoothRange: 0.03
-  chromaKeySpillRange: 0.06
-  useDynamicLighting: 0
-  depthQuality: 1
-  dynamicLightingSmoothFactor: 8
-  dynamicLightingDepthVariationClampingValue: 0.001
-  virtualGreenScreenType: 0
-  virtualGreenScreenTopY: 10
-  virtualGreenScreenBottomY: -10
-  virtualGreenScreenApplyDepthCulling: 0
-  virtualGreenScreenDepthTolerance: 0.2
   _trackingOriginType: 0
   usePositionTracking: 1
   useRotationTracking: 1
   useIPDInPositionTracking: 1
   resetTrackerOnLoad: 0
   AllowRecenter: 1
+  _reorientHMDOnControllerRecenter: 1
 --- !u!114 &1153733400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8155,7 +8131,7 @@ Prefab:
     - target: {fileID: 199238636530572448, guid: 8272d039cbef1a3429cc903ad691cd3e,
         type: 2}
       propertyPath: m_Pivot.y
-      value: 14
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 199238636530572448, guid: 8272d039cbef1a3429cc903ad691cd3e,
         type: 2}
