@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using static OVRInput;
+using static UnityEngine.Input;
 
 //[RequireComponent(typeof(Rigidbody))]   //Rigidbody必須(Add時になければ自動で追加される)
 public class CameraMover : MonoBehaviour
@@ -8,21 +10,27 @@ public class CameraMover : MonoBehaviour
     [SerializeField] AudioSource _windSound = null;
     [SerializeField] AudioSource _landingSound = null;
     [SerializeField] ParticleSystem _intensiveLine = null;
+    
 	void Update ()
     {
-        //トリガーが押されたら集中線を表示
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || Input.GetKeyDown(KeyCode.Space)) {
+        //戻るボタン押されたらダイアログ表示
+        if (GetDown(Button.Back)) {
+            OVRManager.PlatformUIConfirmQuit();
+        }
+        
+        //トリガーかタッチパッドが押されたら集中線を表示
+        if (GetDown(Button.PrimaryIndexTrigger) || GetDown(Button.PrimaryTouchpad) || GetKeyDown(KeyCode.Space)) {
             _intensiveLine.gameObject.SetActive(true);
         }
-        //トリガーが押されている間，風の効果音を再生し前方に移動する
-        if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || Input.GetKey(KeyCode.Space)) {
+        //トリガーかタッチパッドが押されている間，風の効果音を再生し前方に移動
+        if (Get(Button.PrimaryIndexTrigger) || Get(Button.PrimaryTouchpad) || GetKey(KeyCode.Space)) {
             if (!_windSound.isPlaying) {
                 _windSound.Play();
             }
             transform.position += _centerEyeAnchor.forward * _speed * Time.deltaTime;
         }
-        //トリガーが離されたら集中線を非表示慣性で少し前に移動する
-        if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger) || Input.GetKeyUp(KeyCode.Space)) {
+        //トリガーかタッチパッドが離されたら集中線を非表示
+        if (GetUp(Button.PrimaryIndexTrigger) || GetUp(Button.PrimaryTouchpad) || GetKeyUp(KeyCode.Space)) {
             _intensiveLine.gameObject.SetActive(false);
         }
 	}

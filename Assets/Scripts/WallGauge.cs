@@ -16,7 +16,7 @@ public class WallGauge : MonoBehaviour
 
     public void DecreaseValue()
     {
-        _t -= 0.01f;
+        _t -= 0.005f;
         var x = Mathf.Lerp(0f, _maxValue, _t);
         _gauge.fillAmount = x;
     }

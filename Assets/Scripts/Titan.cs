@@ -2,19 +2,20 @@
 
 public class Titan : MonoBehaviour
 {
-    [SerializeField] BGMController _bgmController;
+    [SerializeField] BgmController _bgmController;
     [SerializeField] Animator _animator;
-    [SerializeField] AudioSource _deathCry;
     [SerializeField] Rigidbody _rigidbody;
     
+    AudioSource[] _deathCry;
     /// <summary>アニメーション再生中かどうか</summary>
     bool _onPlaying;
     /// <summary>進行方向</summary>
     Vector3 _direction = new Vector3(0f, 0f, 0f);
 
-    //中心を向く
     void Start()
     {
+        _deathCry = GetComponents<AudioSource>();
+        //中心を向く
         _direction.y = transform.position.y;    //目線は地面と平行
         transform.LookAt(_direction);
     }
@@ -27,9 +28,7 @@ public class Titan : MonoBehaviour
         }
         
         PlayFallDownAnimation();    //倒れるアニメーション再生
-        if (!_deathCry.isPlaying) {
-            _deathCry.Play(); //叫び声を再生
-        }
+        _deathCry[Random.Range(0, _deathCry.Length)].Play();
 
         //倒れたら他の巨人の邪魔をしない
         _rigidbody.isKinematic = true;

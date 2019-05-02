@@ -2,7 +2,7 @@
 
 public class GaugeController : MonoBehaviour
 {
-    [SerializeField] BGMController _bgmController;
+    [SerializeField] BgmController _bgmController;
     [SerializeField] RectTransform _rt;
 
     float t;
@@ -21,7 +21,7 @@ public class GaugeController : MonoBehaviour
         var x = Mathf.Lerp(0f, maxValue, t);
         rt.sizeDelta = new Vector2(x, rt.sizeDelta.y);
         if (t <= 0f) {
-            _bgmController.PlayGameOverBGM();
+            _bgmController.PlayGameOverBgm();
         }
     }
 }
