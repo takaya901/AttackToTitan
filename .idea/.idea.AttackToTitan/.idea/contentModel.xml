@@ -6,6 +6,14 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="cave_troll" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="camera_follow.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Standard Two Sided Soft Blend.shader" t="Include" />
+          </e>
+        </e>
         <e p="Cleaner" t="Include">
           <e p="Editor" t="Include">
             <e p="AssetCollector.cs" t="Include" />
