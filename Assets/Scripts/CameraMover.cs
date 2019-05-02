@@ -8,22 +8,11 @@ public class CameraMover : MonoBehaviour
     [SerializeField] AudioSource _windSound = null;
     [SerializeField] AudioSource _landingSound = null;
     [SerializeField] ParticleSystem _intensiveLine = null;
-//    Rigidbody _rigidbody;
-
-    void Start ()
-    {
-        //Rigidbody取得、初期設定
-//        _rigidbody = gameObject.GetComponent<Rigidbody>();
-//        _rigidbody.useGravity = true;
-//        _rigidbody.freezeRotation = true;
-    }
-	
 	void Update ()
     {
-        //トリガーが押されたら集中線を表示し，重力を無効にする
+        //トリガーが押されたら集中線を表示
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || Input.GetKeyDown(KeyCode.Space)) {
             _intensiveLine.gameObject.SetActive(true);
-//            _rigidbody.useGravity = false;
         }
         //トリガーが押されている間，風の効果音を再生し前方に移動する
         if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || Input.GetKey(KeyCode.Space)) {
@@ -32,11 +21,9 @@ public class CameraMover : MonoBehaviour
             }
             transform.position += _centerEyeAnchor.forward * _speed * Time.deltaTime;
         }
-        //トリガーが離されたら集中線を非表示，重力を有効にし，慣性で少し前に移動する
+        //トリガーが離されたら集中線を非表示慣性で少し前に移動する
         if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger) || Input.GetKeyUp(KeyCode.Space)) {
             _intensiveLine.gameObject.SetActive(false);
-//            _rigidbody.useGravity = true;
-//            _rigidbody.AddForce(_centerEyeAnchor.transform.forward * 10, ForceMode.Impulse);
         }
 	}
 

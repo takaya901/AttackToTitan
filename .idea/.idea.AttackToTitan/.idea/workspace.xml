@@ -2,30 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786df0cb-0681-4386-ab9f-650f009cc6a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AttackToTitan/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AttackToTitan/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AttackToTitan/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AttackToTitan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AttackToTitan/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Almgp_particle_vol_1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Almgp_particle_vol_1/script.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Almgp_particle_vol_1/script/sprite_sheet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Almgp_particle_vol_1/script/sprite_sheet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraMaterial.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraMaterial.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Canvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Canvas.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Reflection Probe.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Reflection Probe.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Almgp_particle_vol_1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Almgp_particle_vol_1/script.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Realistic Terrain Collection/Other/Textures/GrassStraw2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Almgp_particle_vol_1/script/sprite_sheet.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Quads.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bar.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/skyb1/sky,startday.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraMaterial.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CameraMaterial.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraMaterial.physicMaterial.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CameraMaterial.physicMaterial.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Canvas.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/New Terrain 3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/New Terrain 3.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Posix.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/QuickGuide.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/System.Threading.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/big-logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/credits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/credits.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/eula.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/eula.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/sfw.net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LayerName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/LayerName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/LayerName.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/LayerName.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Reflection Probe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Reflection Probe.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Reflection Probe.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Reflection Probe.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Titan 2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Titan 2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Transparent.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Transparent.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenerateTitan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateTitan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Titan 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Titan 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Titan 2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Titan 2.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Transparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particles/Transparent.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Transparent.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particles/Transparent.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +99,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Titan.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
+            <state relative-caret-position="556">
               <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
               <folding>
                 <marker date="1543401566427" expanded="true" signature="54:1780" ph="{...}" />
@@ -106,20 +170,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraMover.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="192">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
-                <marker date="1556721221422" expanded="true" signature="135:1826" ph="{...}" />
-                <marker date="1556721221422" expanded="true" signature="446:630" ph="{...}" />
-                <marker date="1556721221422" expanded="true" signature="461:624" ph="/* Rigidbody取得、初期設定 ... */" />
-                <marker date="1556721221422" expanded="true" signature="648:1583" ph="{...}" />
-                <marker date="1556721221422" expanded="true" signature="794:905" ph="{...}" />
-                <marker date="1556721221422" expanded="true" signature="1040:1227" ph="{...}" />
-                <marker date="1556721221422" expanded="true" signature="1081:1131" ph="{...}" />
-                <marker date="1556721221422" expanded="true" signature="1374:1580" ph="{...}" />
-                <marker date="1556721221422" expanded="true" signature="1432:1570" ph="/* _rigidbody.useGravity = true; ... */" />
-                <marker date="1556721221422" expanded="true" signature="1643:1824" ph="{...}" />
-                <marker date="1556721221422" expanded="true" signature="1773:1818" ph="{...}" />
+                <marker date="1556775137690" expanded="true" signature="135:1390" ph="{...}" />
+                <marker date="1556775137690" expanded="true" signature="415:1147" ph="{...}" />
+                <marker date="1556775137690" expanded="true" signature="551:617" ph="{...}" />
+                <marker date="1556775137690" expanded="true" signature="752:939" ph="{...}" />
+                <marker date="1556775137690" expanded="true" signature="793:843" ph="{...}" />
+                <marker date="1556775137690" expanded="true" signature="1077:1144" ph="{...}" />
+                <marker date="1556775137690" expanded="true" signature="1207:1388" ph="{...}" />
+                <marker date="1556775137690" expanded="true" signature="1337:1382" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -144,18 +205,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateTitan.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="317">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
               <folding>
-                <marker date="1543402236930" expanded="false" signature="6:67" ph="..." />
-                <marker date="1543402236930" expanded="true" signature="206:2012" ph="{...}" />
-                <marker date="1543402236930" expanded="true" signature="561:2010" ph="{...}" />
-                <marker date="1543402236930" expanded="true" signature="760:2004" ph="{...}" />
-                <marker date="1543402236930" expanded="true" signature="1525:1564" ph="{...}" />
-                <marker date="1543402236930" expanded="true" signature="1771:1994" ph="{...}" />
+                <marker date="1556772844540" expanded="false" signature="6:67" ph="..." />
+                <marker date="1556772844540" expanded="true" signature="206:1992" ph="{...}" />
+                <marker date="1556772844540" expanded="true" signature="673:1990" ph="{...}" />
+                <marker date="1556772844540" expanded="true" signature="751:1984" ph="{...}" />
+                <marker date="1556772844540" expanded="true" signature="1505:1544" ph="{...}" />
+                <marker date="1556772844540" expanded="true" signature="1751:1974" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -200,8 +261,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BGMController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WallGauge.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Titan.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GenerateTitan.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GaugeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GenerateTitan.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMover.cs" />
       </list>
     </option>
@@ -216,15 +277,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,11 +341,13 @@
       <workItem from="1544278194675" duration="260000" />
       <workItem from="1556720462411" duration="772000" />
       <workItem from="1556727382698" duration="466000" />
+      <workItem from="1556770929031" duration="404000" />
+      <workItem from="1556772727081" duration="1176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7707000" />
+    <option name="totallyTimeSpent" value="9287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,7 +364,7 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.115879826" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.11874106" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,25 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="751">
           <caret line="2221" column="48" selection-start-line="2221" selection-start-column="48" selection-end-line="2221" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Titan.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding>
-            <marker date="1543401566427" expanded="true" signature="54:1780" ph="{...}" />
-            <marker date="1543401566427" expanded="true" signature="415:524" ph="{...}" />
-            <marker date="1543401566427" expanded="true" signature="589:1016" ph="{...}" />
-            <marker date="1543401566427" expanded="true" signature="653:707" ph="{...}" />
-            <marker date="1543401566427" expanded="true" signature="802:852" ph="{...}" />
-            <marker date="1543401566427" expanded="true" signature="1084:1254" ph="{...}" />
-            <marker date="1543401566427" expanded="true" signature="1149:1194" ph="{...}" />
-            <marker date="1543401566427" expanded="true" signature="1328:1778" ph="{...}" />
-            <marker date="1543401566427" expanded="true" signature="1546:1612" ph="{...}" />
-            <marker date="1543401566427" expanded="true" signature="1663:1772" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,37 +486,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraMover.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateTitan.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="317">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
           <folding>
-            <marker date="1556721221422" expanded="true" signature="135:1826" ph="{...}" />
-            <marker date="1556721221422" expanded="true" signature="446:630" ph="{...}" />
-            <marker date="1556721221422" expanded="true" signature="461:624" ph="/* Rigidbody取得、初期設定 ... */" />
-            <marker date="1556721221422" expanded="true" signature="648:1583" ph="{...}" />
-            <marker date="1556721221422" expanded="true" signature="794:905" ph="{...}" />
-            <marker date="1556721221422" expanded="true" signature="1040:1227" ph="{...}" />
-            <marker date="1556721221422" expanded="true" signature="1081:1131" ph="{...}" />
-            <marker date="1556721221422" expanded="true" signature="1374:1580" ph="{...}" />
-            <marker date="1556721221422" expanded="true" signature="1432:1570" ph="/* _rigidbody.useGravity = true; ... */" />
-            <marker date="1556721221422" expanded="true" signature="1643:1824" ph="{...}" />
-            <marker date="1556721221422" expanded="true" signature="1773:1818" ph="{...}" />
+            <marker date="1556772844540" expanded="false" signature="6:67" ph="..." />
+            <marker date="1556772844540" expanded="true" signature="206:1992" ph="{...}" />
+            <marker date="1556772844540" expanded="true" signature="673:1990" ph="{...}" />
+            <marker date="1556772844540" expanded="true" signature="751:1984" ph="{...}" />
+            <marker date="1556772844540" expanded="true" signature="1505:1544" ph="{...}" />
+            <marker date="1556772844540" expanded="true" signature="1751:1974" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateTitan.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraMover.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="192">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
-            <marker date="1543402236930" expanded="false" signature="6:67" ph="..." />
-            <marker date="1543402236930" expanded="true" signature="206:2012" ph="{...}" />
-            <marker date="1543402236930" expanded="true" signature="561:2010" ph="{...}" />
-            <marker date="1543402236930" expanded="true" signature="760:2004" ph="{...}" />
-            <marker date="1543402236930" expanded="true" signature="1525:1564" ph="{...}" />
-            <marker date="1543402236930" expanded="true" signature="1771:1994" ph="{...}" />
+            <marker date="1556775137690" expanded="true" signature="135:1390" ph="{...}" />
+            <marker date="1556775137690" expanded="true" signature="415:1147" ph="{...}" />
+            <marker date="1556775137690" expanded="true" signature="551:617" ph="{...}" />
+            <marker date="1556775137690" expanded="true" signature="752:939" ph="{...}" />
+            <marker date="1556775137690" expanded="true" signature="793:843" ph="{...}" />
+            <marker date="1556775137690" expanded="true" signature="1077:1144" ph="{...}" />
+            <marker date="1556775137690" expanded="true" signature="1207:1388" ph="{...}" />
+            <marker date="1556775137690" expanded="true" signature="1337:1382" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Titan.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding>
+            <marker date="1543401566427" expanded="true" signature="54:1780" ph="{...}" />
+            <marker date="1543401566427" expanded="true" signature="415:524" ph="{...}" />
+            <marker date="1543401566427" expanded="true" signature="589:1016" ph="{...}" />
+            <marker date="1543401566427" expanded="true" signature="653:707" ph="{...}" />
+            <marker date="1543401566427" expanded="true" signature="802:852" ph="{...}" />
+            <marker date="1543401566427" expanded="true" signature="1084:1254" ph="{...}" />
+            <marker date="1543401566427" expanded="true" signature="1149:1194" ph="{...}" />
+            <marker date="1543401566427" expanded="true" signature="1328:1778" ph="{...}" />
+            <marker date="1543401566427" expanded="true" signature="1546:1612" ph="{...}" />
+            <marker date="1543401566427" expanded="true" signature="1663:1772" ph="{...}" />
           </folding>
         </state>
       </provider>
