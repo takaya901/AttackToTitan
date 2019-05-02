@@ -13,11 +13,6 @@ public class CameraMover : MonoBehaviour
     
 	void Update ()
     {
-        //戻るボタン押されたらダイアログ表示
-        if (GetDown(Button.Back)) {
-            OVRManager.PlatformUIConfirmQuit();
-        }
-        
         //トリガーかタッチパッドが押されたら集中線を表示
         if (GetDown(Button.PrimaryIndexTrigger) || GetDown(Button.PrimaryTouchpad) || GetKeyDown(KeyCode.Space)) {
             _intensiveLine.gameObject.SetActive(true);

@@ -1,10 +1,14 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class Titan : MonoBehaviour
 {
     [SerializeField] BgmController _bgmController;
     [SerializeField] Animator _animator;
     [SerializeField] Rigidbody _rigidbody;
+    [SerializeField] Text _titanCount;
     
     AudioSource[] _deathCry;
     /// <summary>アニメーション再生中かどうか</summary>
@@ -35,6 +39,8 @@ public class Titan : MonoBehaviour
         gameObject.layer = LayerName.fellTitan;
 
         _bgmController.DecreaseTitanNum();
+        var currentTitanNum = int.Parse(_titanCount.text);
+        _titanCount.text = (currentTitanNum - 1).ToString();
     }
 
     //壁にたどり着いたら攻撃開始
